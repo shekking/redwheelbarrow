@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xml:lang="en">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:identifier id="pub-id">urn:uuid:1A8EFD67-34E4-47D0-B1C5-FCA7C477E884</dc:identifier>
+<dc:title>poemsproject</dc:title>
+<dc:date>2026-11-09T15:49:46Z</dc:date>
+<meta property="dcterms:modified">2026-11-09T15:49:46Z</meta>
+<meta property="rendition:layout">reflowable</meta>
+<meta property="rendition:flow">paginated</meta>
+<dc:creator id="creator">Szymon Hekking</dc:creator>
+<meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+<meta name="generator" content="Affinity 3.2.3.4646 MacOS (Jul  7 2026)"/>
+<dc:language>en-US</dc:language>
+<meta property="ibooks:specified-fonts">true</meta>
+</metadata>
+<manifest>
+<item id="Story1" href="Story1.xhtml" media-type="application/xhtml+xml"/>
+<item id="styles" href="css/styles.css" media-type="text/css"/>
+<item id="GoudyRegular.otf" href="font/GoudyRegular.otf" media-type="application/font-sfnt"/>
+<item id="GoudyItalic.otf" href="font/GoudyItalic.otf" media-type="application/font-sfnt"/>
+<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+</manifest>
+<spine>
+<itemref idref="Story1"/>
+</spine>
+</package>
